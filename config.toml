@@ -1,33 +1,80 @@
-languageCode = "en-us"
-title = "Massively"
-baseURL = "http://localhost:1313/"
-theme = "hugo-theme-massively"
-googleanalytics = ""
-disqusShortname = ""
-disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+# Basic
+title = "FPV India"
+baseURL = "http://localhost:1313"
+theme = "vno-hugo"
 
-# [params]
-  # set below parameter to define a favicon
-  # favicon = "favicon.ico"
-  # set to change date format
-  # dateFormat = "2.1.2006"
-  # backgroundPath = "images/bg.jpg"
-
-# Below parameters can be set to override default post settings
-# [params.posts]
-#     folderName = "post"
-#     pageSize = "6"
-#     featuredPost = true
-#     paginationPages = 2
-#     showFirstLast = false
- 
+# supported languages: en-us, zh-cn (lowercase language codes only)
+defaultContentLanguage = 'en-us'
+# here lists available languages, if you wish to add your own custom translation, please refer to https://gohugo.io/content-management/multilingual
 [languages]
-[languages.en]
-  languageName = "English"
-#[languages.es]
-#  languageName = "Español"
-#  title = "Massively - Versión Español"
-#[languages.fr]
-#  languageName = "Français"
-#  title = "Massively - Version Française"
+  [languages.en-us]
+    languageName = 'English(United States)'
+    weight = 10
 
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[menu]
+ # [[menu.main]]
+ #   name = "Blog"
+ #   identifier = "blog"
+ #   url = "/blog"
+ #   weight = 10
+ # [[menu.main]]
+ #    name = "Tags"
+ #    identifier = "Tags"
+ #    url = "/tags/"
+ #    weight = 20
+[taxonomies]
+    tag = "tags"
+    
+[params]
+author = "droneflipper"
+subtitle = "Welcome to the home page of FPV India community"
+description = "This is where we make things fly..."
+welcomeMessage = ""
+
+[params.Author.email]
+email = "example@example.com"
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+coverColor = "red"
+
+[params.comment]
+disqus = "vno-hugo"
+duoshuo = ""
+
+# Take a look on https://github.com/gitalk/gitalk#usage for more info.
+[params.comment.gitalk]
+ID = ""
+secret = ""
+repo = ""
+owner = ""
+
+[params.social]
+weibo = "onevcat"
+github = "onevcat"
+twitter = "onevcat"
+gplus = "107108267983477358170"
+mail = "onev@onevcat.com"
+linkedin = "example"
+
+[params.ga]
+ID = "your_ga_id"
+host = "your_host"
+
+# The blog button should not be removed.
+[params.blogButton]
+title = "Blog"
+description = "Visit blog"
+
+[params.copyright]
+license = 'CC BY-NC-SA 4.0'
+license_link = 'http://creativecommons.org/licenses/by-nc-sa/4.0/'
+
+[permalinks]
+posts = "/:year/:month/:title/"
