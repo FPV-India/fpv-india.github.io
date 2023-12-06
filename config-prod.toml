@@ -56,12 +56,9 @@ repo = ""
 owner = ""
 
 [params.social]
-# weibo = "onevcat"
-# github = "onevcat"
-# twitter = "onevcat"
-# gplus = "107108267983477358170"
-# mail = "admin@fpvindia.in"
-#linkedin = "example"
+github = "fpv-india"
+mail = "admin@fpvindia.in"
+
 
 # [params.ga]
 # ID = "your_ga_id"

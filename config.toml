@@ -50,7 +50,7 @@ coverColor = "red"
 #duoshuo = ""
 
 [params.social]
-github = "https://github.com/fpv-india"
+github = "fpv-india"
 mail = "admin@fpvindia.in"
 
 # The blog button should not be removed.
