@@ -7,7 +7,8 @@ math: false
 draft: false
 ---
 
-{{ $image := .Resources.Get "MakerFaire_Whoop_Race_Poster1.png" }}
+
+![MakerFaire_Whoop_Race_Poster[1].png](MakerFaire_Whoop_Race_Poster1.png)
 
 Time: 17 Dec ‘23 - 4 PM
 Venue: T-WORKS, Hyderabad
