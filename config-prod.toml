@@ -1,6 +1,6 @@
 # Basic
 title = "FPV India"
-baseURL = "https://fpvindia.in"
+baseURL = "https://www.fpvindia.in"
 theme = "vno-hugo"
 
 # supported languages: en-us, zh-cn (lowercase language codes only)
