@@ -1,6 +1,13 @@
-# MakerFaire Hyderabad ‘23 whoop Race
+---
+layout: post
+tags: ["whoop race","Makerfaire"]
+title: "MakerFaire Hyderabad '23 Whoop race"
+date: 2023-12-06T07:28:27+08:00
+math: false
+draft: false
+---
 
-![MakerFaire_Whoop_Race_Poster[1].png](MakerFaire%20Hyderabad%20%E2%80%9823%20whoop%20Race%203f669032b78c4ea187b9880c1134ea22/MakerFaire_Whoop_Race_Poster1.png)
+{{ $image := .Resources.Get "MakerFaire_Whoop_Race_Poster1.png" }}
 
 Time: 17 Dec ‘23 - 4 PM
 Venue: T-WORKS, Hyderabad
