@@ -19,19 +19,19 @@ paginatePath = "page"
   home = ["HTML", "RSS"]
 
 [menu]
- # [[menu.main]]
- #   name = "Blog"
- #   identifier = "blog"
- #   url = "/blog"
- #   weight = 10
- # [[menu.main]]
- #    name = "Tags"
- #    identifier = "Tags"
- #    url = "/tags/"
- #    weight = 20
+ [[menu.main]]
+    name = "Blog"
+    identifier = "blog"
+    url = "/blog"
+    weight = 10
+  [[menu.main]]
+     name = "Tags"
+     identifier = "Tags"
+     url = "/tags/"
+     weight = 20
 [taxonomies]
     tag = "tags"
-    
+
 [params]
 author = "droneflipper"
 subtitle = "Welcome to the home page of FPV India community"
@@ -39,7 +39,7 @@ description = "This is where we make things fly..."
 welcomeMessage = ""
 
 [params.Author.email]
-email = "example@example.com"
+email = "admin@fpvindia.in"
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 coverColor = "red"
