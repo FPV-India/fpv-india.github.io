@@ -1,0 +1,69 @@
+---
+layout: post
+tags: ["BITS","5 Inch","Race","Hyderabad"]
+title: "AEOLUS'23 BITS"
+date: 2023-11-03T07:28:27+08:00
+math: false
+draft: false
+---
+
+
+![Banner.png](/images/20231103_BITS/NIGHT_track.png)
+
+Time: 3rd NOV 2023
+Venue: BITS Ground, Hyderabad
+BITS DRL- 1st Edition
+Type: Real World
+Team: Individual
+Location: Old Football Ground, BITS Hyderabad
+
+1. Venue:
+BITS Pilani Hyderabad Campus
+
+[GMap Pin](https://maps.app.goo.gl/fMMYjxwMGftFTgmH6?g_st=iw)
+
+2. Race Date & Timing:
+3rd & 4th November 2023
+
+3. Race Schedule:
+
+A. 3rd Novembor ‘23 - 9 am to 9 pm.
+-(Day 1 schedule)
+B. 4th Novembor ‘23 - 12 pm to 9 pm.
+
+- (Day 2 schedule)
+D. Race Type:
+Night Drone Racing
+
+E. Rules and Format:
+
+Multi GP Rulebook is applicable for this event.
+
+F. Prize Pool:
+Total Prize Money for top 8 winners of the event will be ₹ 1,29,500/-
+Distribution will be:
+1st: 30,000
+2nd: 25,000
+3rd: 19,000
+4th: 13,000
+5th: 8500
+6th: 8500
+7th: 8500
+8th: 8500
+9th: 8500
+
+G. Track:
+MultiGP 2023 Mayhem Track
+
+H. No Quad Restriction:
+Only Analog and HDZERO allowed
+
+I. Entry Fee:
+None
+
+J. Accommodation:
+Rs. 800 for two night stay and Rs. 500 for one night stay, at single occupancy Hostel room.
+
+K. [Registration](https://forms.gle/b32GeHYeq4xWfWUs6):
+
+L. [Whatsapp Group](https://chat.whatsapp.com/ErDAJ68JeFcDsHrVslDltS)
