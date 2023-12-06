@@ -8,7 +8,7 @@ draft: false
 ---
 
 
-![Banner.png](https://github.com/FPV-India/fpv-india.github.io/blob/main/content/posts/MakerFaire/MakerFaire_Whoop_Race_Poster1.png)
+![Banner.png](content/posts/MakerFaire/MakerFaire_Whoop_Race_Poster1.png)
 
 Time: 17 Dec ‘23 - 4 PM
 Venue: T-WORKS, Hyderabad
