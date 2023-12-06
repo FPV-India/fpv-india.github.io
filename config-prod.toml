@@ -36,7 +36,7 @@ paginatePath = "page"
 author = "droneflipper"
 subtitle = "Welcome to the home page of FPV India community"
 description = "This is where we make things fly..."
-welcomeMessage = ""
+welcomeMessage = "Our goal is to regularly host high-quality races that adhere to the standards set by MultiGP, with a minimum of one event per month. We have already attracted a number of highly skilled pilots to our team, including some of the top pilots in the country. Our mission is to make FPV racing more accessible and widely available in India. We believe that by hosting regular events, we can attract new pilots and fans to the sport, and provide opportunities for the existing community to improve."
 
 [params.Author.email]
 email = "example@example.com"
