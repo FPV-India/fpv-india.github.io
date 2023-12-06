@@ -24,11 +24,11 @@ paginatePath = "page"
  #   identifier = "blog"
  #   url = "/blog"
  #   weight = 10
- # [[menu.main]]
- #    name = "Tags"
- #    identifier = "Tags"
- #    url = "/tags/"
- #    weight = 20
+ [[menu.main]]
+    name = "Events"
+    identifier = "Tags"
+    url = "/tags/"
+    weight = 20
 [taxonomies]
     tag = "tags"
     

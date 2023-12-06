@@ -20,9 +20,9 @@ paginatePath = "page"
 
 [menu]
  [[menu.main]]
-    name = "Blog"
-    identifier = "blog"
-    url = "/blog"
+    name = "Events"
+    identifier = "events"
+    url = "/events"
     weight = 10
   [[menu.main]]
      name = "Tags"
@@ -36,7 +36,8 @@ paginatePath = "page"
 author = "droneflipper"
 subtitle = "Welcome to the home page of FPV India community"
 description = "This is where we make things fly..."
-welcomeMessage = ""
+welcomeMessage = "Our goal is to regularly host high-quality races that adhere to the standards set by MultiGP, with a minimum of one event per month. We have already attracted a number of highly skilled pilots to our team, including some of the top pilots in the country. Our mission is to make FPV racing more accessible and widely available in India. We believe that by hosting regular events, we can attract new pilots and fans to the sport, and provide opportunities for the existing community to improve."
+
 
 [params.Author.email]
 email = "admin@fpvindia.in"
@@ -44,28 +45,13 @@ email = "admin@fpvindia.in"
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 coverColor = "red"
 
-[params.comment]
-disqus = "vno-hugo"
-duoshuo = ""
-
-# Take a look on https://github.com/gitalk/gitalk#usage for more info.
-[params.comment.gitalk]
-ID = ""
-secret = ""
-repo = ""
-owner = ""
+#[params.comment]
+#disqus = "vno-hugo"
+#duoshuo = ""
 
 [params.social]
-weibo = "onevcat"
-github = "onevcat"
-twitter = "onevcat"
-gplus = "107108267983477358170"
-mail = "onev@onevcat.com"
-linkedin = "example"
-
-[params.ga]
-ID = "your_ga_id"
-host = "your_host"
+github = "https://github.com/fpv-india"
+mail = "admin@fpvindia.in"
 
 # The blog button should not be removed.
 [params.blogButton]
