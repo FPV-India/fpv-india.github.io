@@ -56,16 +56,16 @@ repo = ""
 owner = ""
 
 [params.social]
-weibo = "onevcat"
-github = "onevcat"
-twitter = "onevcat"
-gplus = "107108267983477358170"
-mail = "onev@onevcat.com"
-linkedin = "example"
+# weibo = "onevcat"
+# github = "onevcat"
+# twitter = "onevcat"
+# gplus = "107108267983477358170"
+# mail = "admin@fpvindia.in"
+#linkedin = "example"
 
-[params.ga]
-ID = "your_ga_id"
-host = "your_host"
+# [params.ga]
+# ID = "your_ga_id"
+# host = "your_host"
 
 # The blog button should not be removed.
 [params.blogButton]

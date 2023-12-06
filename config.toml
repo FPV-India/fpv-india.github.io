@@ -73,7 +73,7 @@ title = "Blog"
 description = "Visit blog"
 
 [params.copyright]
-license = 'CC BY-NC-SA 4.0'
+license = '© FPV India'
 license_link = 'http://creativecommons.org/licenses/by-nc-sa/4.0/'
 
 [permalinks]

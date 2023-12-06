@@ -8,7 +8,7 @@ draft: false
 ---
 
 
-![Banner.png](content/posts/MakerFaire/MakerFaire_Whoop_Race_Poster1.png)
+![Banner.png](/images/makerfairehyd23/MakerFaire_Whoop_Race_Poster1.png)
 
 Time: 17 Dec ‘23 - 4 PM
 Venue: T-WORKS, Hyderabad
