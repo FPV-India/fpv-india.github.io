@@ -20,9 +20,9 @@ paginatePath = "page"
 
 [menu]
  [[menu.main]]
-    name = "Events"
-    identifier = "events"
-    url = "/events"
+    name = "Learn"
+    identifier = "learn"
+    url = "/learn/"
     weight = 10
   [[menu.main]]
      name = "Tags"
@@ -55,12 +55,12 @@ mail = "admin@fpvindia.in"
 
 # The blog button should not be removed.
 [params.blogButton]
-title = "Blog"
+title = "Events"
 description = "Visit blog"
 
 [params.copyright]
 license = '© FPV India'
-license_link = 'http://creativecommons.org/licenses/by-nc-sa/4.0/'
+license_link = 'https://www.multigp.com/chapters/view/?chapter=FPV-India'
 
 [permalinks]
 posts = "/:year/:month/:title/"
