@@ -1,15 +1,9 @@
 # Basic
 title = "FPV India"
 baseURL = "http://localhost:1313"
-theme = "vno-hugo"
+theme = "mainroad"
+languageCode = "en-us"
 
-# supported languages: en-us, zh-cn (lowercase language codes only)
-defaultContentLanguage = 'en-us'
-# here lists available languages, if you wish to add your own custom translation, please refer to https://gohugo.io/content-management/multilingual
-[languages]
-  [languages.en-us]
-    languageName = 'English(United States)'
-    weight = 10
 
 # Pagination
 paginate = 10
@@ -29,38 +23,73 @@ paginatePath = "page"
      identifier = "Tags"
      url = "/tags/"
      weight = 20
-[taxonomies]
-    tag = "tags"
 
-[params]
-author = "droneflipper"
-subtitle = "Welcome to the home page of FPV India community"
-description = "This is where we make things fly..."
-welcomeMessage = "Our goal is to regularly host high-quality races that adhere to the standards set by MultiGP, with a minimum of one event per month. We have already attracted a number of highly skilled pilots to our team, including some of the top pilots in the country. Our mission is to make FPV racing more accessible and widely available in India. We believe that by hosting regular events, we can attract new pilots and fans to the sport, and provide opportunities for the existing community to improve."
+[Params]
+  description = "John Doe's Personal blog about everything" # Site description. Used in meta description
+  copyright = "FPV India" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+  # DEPRECATED PARAMS
+  # subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  # highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
+
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+  image = "images/avatar.png" # Logo image. Path relative to "static"
+  title = "FPV India" # Logo title, otherwise will use site title
+  subtitle = "We make things fly..." # Logo subtitle
+
+[Params.thumbnail]
+  visibility = ["list", "post"] # Control thumbnail visibility
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
 
 
-[params.Author.email]
+[Params.widgets.social]
+facebook = "groups/fpvindia"
+github = "fpv-india"
 email = "admin@fpvindia.in"
 
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-coverColor = "red"
-
-#[params.comment]
-#disqus = "vno-hugo"
-#duoshuo = ""
-
-[params.social]
-github = "fpv-india"
-mail = "admin@fpvindia.in"
-
-# The blog button should not be removed.
-[params.blogButton]
-title = "Blog"
-description = "Visit blog"
-
-[params.copyright]
-license = '© FPV India'
-license_link = 'http://creativecommons.org/licenses/by-nc-sa/4.0/'
-
-[permalinks]
-posts = "/:year/:month/:title/"
+[[Params.widgets.social.custom]]
+  title = "Youtube"
+  url = "https://www.youtube.com/watch?v=SxMxrjyVrbU&t=10002s"
+  icon = "svg/youtube.svg" # Optional. Path relative to "layouts/partials"
+  rel = "noopener noreferrer" # Set to false to remove the rel attribute
+[[Params.widgets.social.custom]]
+  title = "Whatsapp"
+  url = "https://chat.whatsapp.com/LAzD723QqmtAWnrUaX6GhC"
+  icon = "svg/whatsapp.svg" # Optional. Path relative to "layouts/partials"
+  rel = "noopener noreferrer" # Set to false to remove the rel attribute
