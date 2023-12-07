@@ -1,7 +1,7 @@
 # Basic
 title = "FPV India"
 baseURL = "http://localhost:1313"
-theme = "mainroad"
+theme = "vno-hugo"
 
 # supported languages: en-us, zh-cn (lowercase language codes only)
 defaultContentLanguage = 'en-us'
