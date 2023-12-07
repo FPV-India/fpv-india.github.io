@@ -1,3 +1,6 @@
 [submodule "themes/vno-hugo"]
 	path = themes/vno-hugo
 	url = https://github.com/xslingcn/vno-hugo.git
+[submodule "themes/mainroad"]
+	path = themes/mainroad
+	url = https://github.com/vimux/mainroad.git
