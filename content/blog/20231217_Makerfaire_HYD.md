@@ -13,10 +13,12 @@ draft: false
 Time: 17 Dec ‘23 - 4 PM
 Venue: T-WORKS, Hyderabad
 
-- Whoops and batteries will be provided.
-- Pilots to bring their own analog  goggles and ExpressLRS transmitter.
-- Whoops and batteries will be provided.
-- Channel mappping
+We invite you to participate in India's First Whoop Spec Race.
+- We will be racing little 1S FPV Whoop drones, that weigh less than 50 grams.
+- Whoops and batteries will be provided. Bringing your own whoops that meet the spec is allowed.
+- Pilots to bring their own analog goggles and ExpressLRS transmitter.
+
+### Channel mappping for shared drones
 
 | Channel | Source |
 | --- | --- |
