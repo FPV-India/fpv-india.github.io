@@ -6,13 +6,14 @@ date: 2023-12-06T07:28:27+08:00
 math: false
 draft: false
 ---
-{{< youtube mQOj8d1nNGw >}}
+
 
 ![Banner.png](/images/20231217_Makerfaire_HYD/MakerFaire_Whoop_Race_Poster1.png)
 
 Time: 17 Dec ‘23 - 4 PM
-Venue: T-WORKS, Hyderabad
 
+Venue: T-WORKS, Hyderabad
+{{< youtube mQOj8d1nNGw >}}
 We invite you to participate in India's First Whoop Spec Race, Hosted by T-Works, Hyderabad.
 - We will be racing little 1S FPV Whoop drones, that weigh less than 50 grams.
 - Whoops and batteries will be provided. Bringing your own whoops that meet the spec is allowed.
