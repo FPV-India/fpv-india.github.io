@@ -52,6 +52,7 @@ coverColor = "red"
 [params.social]
 github = "fpv-india"
 mail = "admin@fpvindia.in"
+youtube = "youtu.be/@pink_kaju"
 
 # The blog button should not be removed.
 [params.blogButton]
